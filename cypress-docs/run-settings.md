@@ -8,7 +8,7 @@ Lastly, you need to set other desired capabilities, i.e., cypress_version, build
       "cypress_config_file": "cypress.json",
       "build_name": "build-name",
       "parallels": 1,
-      "specs": "./*.spec.js",  // Please add the path of your spec files here to run the tests on Lambdatest
+      "specs": "./*.spec.js",  //"specs": "./cypress/integration/1-getting-started/todo.spec.js"
       "ignore_files": "",
       "feature_file_suppport": false,
       "network": false,
